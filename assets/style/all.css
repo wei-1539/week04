@@ -830,15 +830,17 @@ body {
             flex-direction: column; } }
 
 .classic_item {
-  text-align: center; }
-  .classic_item_img {
-    max-width: 416px; }
-    @media (max-width: 992px) {
-      .classic_item_img {
-        max-width: 336px; } }
-    @media (max-width: 767px) {
-      .classic_item_img {
-        max-width: 348px; } }
+  text-align: center;
+  width: 33.333%; }
+  @media (max-width: 992px) {
+    .classic_item {
+      width: 100%; } }
+  @media (max-width: 992px) {
+    .classic_item_img {
+      max-width: 336px; } }
+  @media (max-width: 767px) {
+    .classic_item_img {
+      max-width: 348px; } }
   .classic_item_link {
     color: #AA0601;
     font-family: "Roboto", sans-serif;
