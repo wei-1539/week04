@@ -1560,10 +1560,6 @@ body {
     .article_footer_topList i {
       font-size: 24px;
       line-height: 36px; }
-    @media (max-width: 992px) {
-      .article_footer_topList {
-        margin-left: -12px;
-        margin-right: -12px; } }
   .article_footer_topItem:hover {
     opacity: 0.5; }
   .article_footer_downList {
@@ -1574,9 +1570,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px; }
-    @media (max-width: 992px) {
-      .article_footer_downList {
-        margin-left: -12px;
-        margin-right: -12px; } }
+  .article_footer_downItem:hover {
+    opacity: 0.5; }
 
 /*# sourceMappingURL=all.css.map */
